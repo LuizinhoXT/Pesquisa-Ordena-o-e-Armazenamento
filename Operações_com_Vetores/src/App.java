@@ -1,3 +1,4 @@
+package Operações_com_Vetores.src;
 // implemente um programa que receba 10 valores inteiros 
 // após isso, deve-se exibir a soma dos valores, a média o maior valor e o menor valor.
 

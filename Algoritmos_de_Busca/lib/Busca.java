@@ -1,4 +1,4 @@
-package Projeto_3_Algoritmos_de_Busca.lib;
+package Algoritmos_de_Busca.lib;
 
 // A busca binária começa analisando o elemento do meio da lista/vetor.
 // se a chave de busca for igual ao elemento do meio, então, retornamos o elemento.
