@@ -22,7 +22,7 @@ public class App {
         System.out.println("media dos valores do vetor é " + media(vet));
 
         System.out.println("maior valor " + maiorValor(vet));
-
+        
     }
 
 

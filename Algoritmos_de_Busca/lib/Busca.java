@@ -1,9 +1,10 @@
 package Algoritmos_de_Busca.lib;
 
-// A busca binária começa analisando o elemento do meio da lista/vetor.
+// A busca binária começa analisando o elemento do meio da lista/vetor. Isso divide a lista em dois lado: um lado com todos os valores maiores que oelemtndo do meio e outro com todos os valores menores.
 // se a chave de busca for igual ao elemento do meio, então, retornamos o elemento.
-// se não, iremos ignorar um dos lados e realizar a busca 
-// para tal, faz: se chave de busca for maior que elemento do meio, então ignoramos o lado esquerdo do vetor e trabalhamos só com o direito 
+// se não, iremos verifiacr se o valor do meio é menor (ou maior) que a chave de busca. Se for verdadeiro, então iremos atualizar as variáveis que limitam o espaço de busca.
+// iremos fazer comparações consecutivas dividindo um segmento em dois sub segmentos.
+// por fim, isso irá reduzir drasticamente o espaço de busca e as iterações do Algoritmo
 public class Busca {
 
     public int binária(int[] vetor, int chaveDeBusca){
